@@ -1,0 +1,43 @@
+.topHeadeContainer{
+	margin:0;
+	padding:0;
+	width: 110%;
+    height: 30vh;
+}
+#authors {
+	position: relative;
+	bottom: 21px;
+}
+#listHeading{
+	width: 30%;
+	float:left;
+}
+#p1{
+	width: 30%;
+	float:left;
+
+}
+#p2{
+	width: 30%;
+	float:left;
+}
+ul > li > div {
+	text-align: center;
+}
+li > div > ul{
+	background-color:white;
+	color:black;
+}
+li > div {
+	background-color:rgb(105,105,105);
+	color:white;
+	width: 110%;
+}	
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	line-height: 40px;
+}

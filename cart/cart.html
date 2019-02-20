@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div class="container">
+		<div id="cartList">
+			<div>
+				<h1>My Cart</h1>
+				<input type="number" name="pincode" value="" placeholder="" id="pincode">
+				<button type="" onclick="filterProduct()">Check</button>
+			</div>
+			
+		</div>
+		<div id="cartPriceList">
+			<h4>Price Details</h4>
+			<hr/>
+			<div id="priceDetails">
+				
+
+			</div>
+		</div>
+	</div>
+	<script src="./cart.js"></script>
+	<style>
+
+		.individualProduct{
+			width: 60%;
+			height:200px;
+		}
+
+		#cartList{
+			height: 800px;
+		    overflow: scroll;
+		    width: 60%;
+		    display: inline-block;
+		}
+
+		#cartPriceList{
+		    width: 38%;
+		    position: absolute;
+		    top: 0px;
+		    display: inline-block;
+		}
+
+		img{
+			width: 20%;
+    		float: left;
+		}	
+		.productData{
+			width: 80%;
+		    position: relative;
+		    left: 10px;
+		}
+
+		.addToCart , .removeFromCart{
+			height:20px;
+			width:20px;
+			display:flex;
+			flex-direction:row;
+			align-items:center;
+			justify-content:center;
+			font-weight:bold;
+			/*font-family:courier;*/
+			color:black;
+			float:left;
+			background: grey;
+    		border-radius: 50px;
+		}
+
+		
+	</style>
+</body>
+</html>
